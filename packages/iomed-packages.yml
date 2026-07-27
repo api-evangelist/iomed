@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/iomedhealth
+notes: >-
+  IOMED does not publish a public API, so it ships no API-client SDKs. It does
+  maintain first-party open-source tooling under the iomedhealth GitHub org. The
+  entry below is a genuinely IOMED-authored library published to PyPI (verified).
+  The org also mirrors OHDSI / DARWIN-EU OMOP community R packages
+  (IncidencePrevalence, CohortConstructor, PatientProfiles, CodelistGenerator,
+  CohortSurvival, DrugExposureDiagnostics, OmopHelpers) which are upstream
+  community projects, not IOMED-originated, and are intentionally omitted here.
+packages:
+- language: python
+  registry: pypi
+  name: spindle-token
+  url: https://pypi.org/project/spindle-token/
+  install: pip install spindle-token
+  source: https://github.com/iomedhealth/oft
+  version: 2.4.0
+  license: Apache-2.0
+  official: true
+  description: >-
+    Open-source implementation of the Open Privacy Preserving Record Linkage
+    (OPPRL) protocol for the OMOP Common Data Model, enabling privacy-preserving
+    patient linkage across federated data networks (OHDSI, EHDEN, DARWIN EU).
+    Not an API client; a data-tokenization library. Formerly "carduus".

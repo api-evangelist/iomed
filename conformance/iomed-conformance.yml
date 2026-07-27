@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.iomed.health/
+notes: >-
+  Standards posture for IOMED. No public API/OpenAPI is published, so
+  cross-cutting API standards (oauth2, oidc, rfc9457, pagination) cannot be
+  asserted from a spec. The conformance below is to the healthcare-data and
+  information-security standards IOMED publicly claims and operates on.
+standards:
+- id: omop-cdm
+  conforms: true
+  evidence: >-
+    IOMED standardizes clinical data on the OMOP Common Data Model and operates a
+    federated network built on OMOP; org publishes OMOP analytics tooling.
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    ISO 27001:2022 certified; certificate published on the security policy page
+    (2025_IOMED_Certificate_ISO 27001_2022).
+- id: iso-27701
+  conforms: true
+  evidence: ISO 27701:2019 privacy information management certification claimed on iomed.health.
+- id: iso-9001
+  conforms: true
+  evidence: ISO 9001:2015 quality management certification claimed on iomed.health.
+- id: gdpr
+  conforms: true
+  evidence: >-
+    Platform positioned as GDPR-compliant; data stored locally at hospitals;
+    published privacy policy and DPO contact (dpo@iomed.health).
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public OpenAPI

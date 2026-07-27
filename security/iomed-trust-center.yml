@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://www.iomed.health/compliance/security-policy
+url: https://www.iomed.health/compliance/security-policy
+notes: >-
+  IOMED has no dedicated trust.* subdomain; its compliance and security posture
+  is published under iomed.health/compliance. Certifications captured verbatim
+  from the site and security policy page (auto-keyword probe did not trip because
+  the certs render behind the /compliance section rather than a /trust page).
+certifications:
+- ISO 27001:2022
+- ISO 27701:2019
+- ISO 9001:2015
+compliance:
+- GDPR
+compliance_pages:
+- https://www.iomed.health/compliance/security-policy
+- https://www.iomed.health/compliance/privacy-policy
+- https://www.iomed.health/compliance/legal-notice
+- https://www.iomed.health/compliance/cookie-policy
+contact:
+- dpo@iomed.health
+evidence:
+- source: https://www.iomed.health/compliance/security-policy
+  keywords: [iso 27001, security policy, iso 27001 certificate download]
+- source: https://www.iomed.health/
+  keywords: [iso 27701, iso 27001, iso 9001]

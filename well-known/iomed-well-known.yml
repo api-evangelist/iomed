@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.iomed.health
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the IOMED website and
+  the info. and iomed.es hosts. None are published (all 404) — expected, as IOMED
+  runs a B2B data-space platform with no public developer API. Absence recorded
+  as valid data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
