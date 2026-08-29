@@ -13,6 +13,17 @@ description: >-
   ISO 9001:2015 certified, and is backed by Speedinvest, Adara Ventures, XTX
   Markets, and Philips Ventures. This profile is maintained in the API
   Evangelist network; IOMED does not currently publish a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
